@@ -15,6 +15,8 @@
 		3C2AA258228022B60017E38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA257228022B60017E38B /* main.m */; };
 		3C2AA262228022B60017E38B /* SetingListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA261228022B60017E38B /* SetingListDemoTests.m */; };
 		3C2AA26D228022B60017E38B /* SetingListDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA26C228022B60017E38B /* SetingListDemoUITests.m */; };
+		3C2AA2912280287B0017E38B /* SetingListVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA2902280287B0017E38B /* SetingListVM.m */; };
+		3C2AA29422802A460017E38B /* ListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA29322802A460017E38B /* ListItemModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3C2AA268228022B60017E38B /* SetingListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetingListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2AA26C228022B60017E38B /* SetingListDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetingListDemoUITests.m; sourceTree = "<group>"; };
 		3C2AA26E228022B60017E38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2AA28F2280287B0017E38B /* SetingListVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetingListVM.h; sourceTree = "<group>"; };
+		3C2AA2902280287B0017E38B /* SetingListVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetingListVM.m; sourceTree = "<group>"; };
+		3C2AA29222802A460017E38B /* ListItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListItemModel.h; sourceTree = "<group>"; };
+		3C2AA29322802A460017E38B /* ListItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListItemModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		3C2AA247228022B50017E38B /* SetingListDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3C2AA28A228026FA0017E38B /* Class */,
 				3C2AA248228022B50017E38B /* AppDelegate.h */,
 				3C2AA249228022B50017E38B /* AppDelegate.m */,
 				3C2AA24B228022B50017E38B /* ViewController.h */,
@@ -130,6 +137,49 @@
 				3C2AA26E228022B60017E38B /* Info.plist */,
 			);
 			path = SetingListDemoUITests;
+			sourceTree = "<group>";
+		};
+		3C2AA28A228026FA0017E38B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA28E228027460017E38B /* ViewModel */,
+				3C2AA28D2280273D0017E38B /* Model */,
+				3C2AA28C2280272F0017E38B /* View */,
+				3C2AA28B228027040017E38B /* Controller */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3C2AA28B228027040017E38B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C2AA28C2280272F0017E38B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C2AA28D2280273D0017E38B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA29222802A460017E38B /* ListItemModel.h */,
+				3C2AA29322802A460017E38B /* ListItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C2AA28E228027460017E38B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA28F2280287B0017E38B /* SetingListVM.h */,
+				3C2AA2902280287B0017E38B /* SetingListVM.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +314,8 @@
 			files = (
 				3C2AA24D228022B50017E38B /* ViewController.m in Sources */,
 				3C2AA258228022B60017E38B /* main.m in Sources */,
+				3C2AA29422802A460017E38B /* ListItemModel.m in Sources */,
+				3C2AA2912280287B0017E38B /* SetingListVM.m in Sources */,
 				3C2AA24A228022B50017E38B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
