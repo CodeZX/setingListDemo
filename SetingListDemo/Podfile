@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+target 'SetingListDemo' do
+	pod 'Masonry'
+	pod 'AFNetworking'
+	pod 'SDWebImage'
+	pod 'MJExtension'
+	pod 'MJRefresh'
+    pod 'ReactiveObjC'
+    pod 'MBProgressHUD'
+end

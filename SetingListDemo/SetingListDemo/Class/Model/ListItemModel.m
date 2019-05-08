@@ -10,4 +10,15 @@
 
 @implementation ListItemModel
 
+- (instancetype)initWithDictionary:(NSDictionary *)dic {
+    self = [super init];
+    if (self) {
+        if (dic) {
+            self.title = dic[@"title"];
+            self.nextVCName = dic[@"NextVCName"];
+        }
+    }
+    return self;
+}
+
 @end

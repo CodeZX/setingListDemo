@@ -1,8 +1,8 @@
 //
-//  ListItemModel.h
+//  ListSectionModel.h
 //  SetingListDemo
 //
-//  Created by 周鑫 on 2019/5/6.
+//  Created by 周鑫 on 2019/5/8.
 //  Copyright © 2019 ZX. All rights reserved.
 //
 
@@ -10,11 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ListItemModel : NSObject
+@interface ListSectionModel : NSObject
 @property (nonatomic,strong) NSString *title;
-@property (nonatomic,strong) NSString *nextVCName;
-- (instancetype)initWithDictionary:(NSDictionary *)dic;
+@property (nonatomic,strong) NSMutableArray *listItems;
 
+- (instancetype)initWithDictionary:(NSDictionary *)dic;
 @end
 
 NS_ASSUME_NONNULL_END

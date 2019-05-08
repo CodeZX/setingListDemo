@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BBCD2B71A465DF2369B18A6 /* libPods-SetingListDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D91DC34D6D536991F47CA3F8 /* libPods-SetingListDemo.a */; };
 		3C2AA24A228022B50017E38B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA249228022B50017E38B /* AppDelegate.m */; };
 		3C2AA24D228022B50017E38B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA24C228022B50017E38B /* ViewController.m */; };
 		3C2AA250228022B50017E38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA24E228022B50017E38B /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 		3C2AA26D228022B60017E38B /* SetingListDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA26C228022B60017E38B /* SetingListDemoUITests.m */; };
 		3C2AA2912280287B0017E38B /* SetingListVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA2902280287B0017E38B /* SetingListVM.m */; };
 		3C2AA29422802A460017E38B /* ListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA29322802A460017E38B /* ListItemModel.m */; };
+		3C2AA2A022816B9E0017E38B /* ListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA29F22816B9E0017E38B /* ListItemCell.m */; };
+		3C2AA2A92282BDEE0017E38B /* SetingListInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AA2A82282BDEE0017E38B /* SetingListInfo.plist */; };
+		3C2AA2AC2282D2D50017E38B /* ListSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AA2AB2282D2D50017E38B /* ListSectionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22E4FA3977B4C71F3349B928 /* Pods-SetingListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SetingListDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SetingListDemo/Pods-SetingListDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3C2AA245228022B50017E38B /* SetingListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetingListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2AA248228022B50017E38B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C2AA249228022B50017E38B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +62,14 @@
 		3C2AA2902280287B0017E38B /* SetingListVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetingListVM.m; sourceTree = "<group>"; };
 		3C2AA29222802A460017E38B /* ListItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListItemModel.h; sourceTree = "<group>"; };
 		3C2AA29322802A460017E38B /* ListItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListItemModel.m; sourceTree = "<group>"; };
+		3C2AA29E22816B9E0017E38B /* ListItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListItemCell.h; sourceTree = "<group>"; };
+		3C2AA29F22816B9E0017E38B /* ListItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListItemCell.m; sourceTree = "<group>"; };
+		3C2AA2A3228177E50017E38B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3C2AA2A82282BDEE0017E38B /* SetingListInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SetingListInfo.plist; sourceTree = "<group>"; };
+		3C2AA2AA2282D2D50017E38B /* ListSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListSectionModel.h; sourceTree = "<group>"; };
+		3C2AA2AB2282D2D50017E38B /* ListSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListSectionModel.m; sourceTree = "<group>"; };
+		6D5BCE66498791FA00DEB978 /* Pods-SetingListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SetingListDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SetingListDemo/Pods-SetingListDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D91DC34D6D536991F47CA3F8 /* libPods-SetingListDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SetingListDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BBCD2B71A465DF2369B18A6 /* libPods-SetingListDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +105,8 @@
 				3C2AA260228022B60017E38B /* SetingListDemoTests */,
 				3C2AA26B228022B60017E38B /* SetingListDemoUITests */,
 				3C2AA246228022B50017E38B /* Products */,
+				7A1B9BE451BC7E3D429A8439 /* Pods */,
+				9D7B1D922661FEF4438CA61A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +158,7 @@
 		3C2AA28A228026FA0017E38B /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				3C2AA2A2228177B10017E38B /* Other */,
 				3C2AA28E228027460017E38B /* ViewModel */,
 				3C2AA28D2280273D0017E38B /* Model */,
 				3C2AA28C2280272F0017E38B /* View */,
@@ -160,6 +177,8 @@
 		3C2AA28C2280272F0017E38B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3C2AA29E22816B9E0017E38B /* ListItemCell.h */,
+				3C2AA29F22816B9E0017E38B /* ListItemCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +188,8 @@
 			children = (
 				3C2AA29222802A460017E38B /* ListItemModel.h */,
 				3C2AA29322802A460017E38B /* ListItemModel.m */,
+				3C2AA2AA2282D2D50017E38B /* ListSectionModel.h */,
+				3C2AA2AB2282D2D50017E38B /* ListSectionModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +203,32 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		3C2AA2A2228177B10017E38B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3C2AA2A3228177E50017E38B /* PrefixHeader.pch */,
+				3C2AA2A82282BDEE0017E38B /* SetingListInfo.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7A1B9BE451BC7E3D429A8439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5BCE66498791FA00DEB978 /* Pods-SetingListDemo.debug.xcconfig */,
+				22E4FA3977B4C71F3349B928 /* Pods-SetingListDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D7B1D922661FEF4438CA61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91DC34D6D536991F47CA3F8 /* libPods-SetingListDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C2AA271228022B60017E38B /* Build configuration list for PBXNativeTarget "SetingListDemo" */;
 			buildPhases = (
+				9501BF23C6C60DBC2A067BD6 /* [CP] Check Pods Manifest.lock */,
 				3C2AA241228022B50017E38B /* Sources */,
 				3C2AA242228022B50017E38B /* Frameworks */,
 				3C2AA243228022B50017E38B /* Resources */,
+				9DEAEF228D0D8893DB96779F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2AA2A92282BDEE0017E38B /* SetingListInfo.plist in Resources */,
 				3C2AA255228022B60017E38B /* LaunchScreen.storyboard in Resources */,
 				3C2AA252228022B60017E38B /* Assets.xcassets in Resources */,
 				3C2AA250228022B50017E38B /* Main.storyboard in Resources */,
@@ -307,6 +357,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9501BF23C6C60DBC2A067BD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SetingListDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DEAEF228D0D8893DB96779F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SetingListDemo/Pods-SetingListDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SetingListDemo/Pods-SetingListDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C2AA241228022B50017E38B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,6 +403,8 @@
 			files = (
 				3C2AA24D228022B50017E38B /* ViewController.m in Sources */,
 				3C2AA258228022B60017E38B /* main.m in Sources */,
+				3C2AA2AC2282D2D50017E38B /* ListSectionModel.m in Sources */,
+				3C2AA2A022816B9E0017E38B /* ListItemCell.m in Sources */,
 				3C2AA29422802A460017E38B /* ListItemModel.m in Sources */,
 				3C2AA2912280287B0017E38B /* SetingListVM.m in Sources */,
 				3C2AA24A228022B50017E38B /* AppDelegate.m in Sources */,
@@ -412,6 +503,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SetingListDemo/Class/Other/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -469,6 +562,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SetingListDemo/Class/Other/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -485,6 +580,7 @@
 		};
 		3C2AA272228022B60017E38B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5BCE66498791FA00DEB978 /* Pods-SetingListDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -502,6 +598,7 @@
 		};
 		3C2AA273228022B60017E38B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E4FA3977B4C71F3349B928 /* Pods-SetingListDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
